@@ -1,0 +1,49 @@
+body{
+    background-image: url(background-image.jpg);
+    background-size: cover;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-family: sans-serif;
+    background-color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+button{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 120px;
+    box-shadow: 2px 2px 2px black;
+}
+#save{
+    background-color: green;
+}
+button:hover{
+    background-color: hsl(0, 31%, 34%);
+}
